@@ -1,4 +1,4 @@
-# studygolang-interview
+# studygolang-daily-interview
 【go语言中文网】每日面试题及其解析
 
 ## day1
