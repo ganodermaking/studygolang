@@ -1,5 +1,5 @@
 # studygolang-interview
-go question bank
+【go语言中文网】每日面试题整理
 
 ## day1
 ```
