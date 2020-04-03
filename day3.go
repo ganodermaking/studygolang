@@ -16,8 +16,8 @@ func f3() {
 }
 
 // 2.下面这段代码有什么缺陷
-// func funcMui(x, y int) (sum int, error) {
-// 	return x + y, nil
-// }
+func funcMui(x, y int) (sum int, error) {
+	return x + y, nil
+}
 
 // 3.new() 和 make() 的区别
