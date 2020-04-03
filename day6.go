@@ -14,7 +14,7 @@ type MyInt2 = int
 // D p->name
 
 // 2.下面这段代码是否能通过编译？如果通过，输出什么？
-func f8() {
+func main() {
 	var i int = 0
 	var i1 MyInt1 = i
 	var i2 MyInt2 = i

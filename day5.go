@@ -5,7 +5,7 @@ import (
 )
 
 // 下面这段代码是否通过编译，不能的话，原因是什么？如果通过，输出什么？
-func f7() {
+func main() {
 	sn1 := struct {
 		age  int
 		name string

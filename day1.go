@@ -5,7 +5,7 @@ import (
 )
 
 // 下面这段代码输出什么？
-func f1() {
+func main() {
 	defer func() {
 		fmt.Println("打印前")
 	}()

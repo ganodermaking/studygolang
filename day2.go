@@ -5,7 +5,7 @@ import (
 )
 
 // 如下代码输出什么？说明原因
-func f2() {
+func main() {
 	slice := []int{0, 1, 2, 3}
 	m := make(map[int]*int)
 
