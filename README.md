@@ -85,3 +85,16 @@ sn3 := struct {
 Go面试题# 第6天答案解析，题目见截图
 1. 参考答案及解析：AC。& 取址运算符，* 指针解引用。
 2. 参考答案及解析：编译不通过，cannot use i (type int) as type MyInt1 in assignment。这道题考的是类型别名与类型定义的区别。第 5 行代码是基于类型 int 创建了新类型 MyInt1，第 6 行代码是创建了 int 的类型别名 MyInt2，注意类型别名的定义时 = 。所以，第 10 行代码相当于是将 int 类型的变量赋值给 MyInt1 类型的变量，Go 是强类型语言，编译当然不通过；而 MyInt2 只是 int 的别名，本质上还是 int，可以赋值。第 10 行代码的赋值可以使用强制类型转化 var i1 MyInt1 = MyInt1(i).
+
+### day7
+1. 参考答案及解析：BD。知识点：字符串连接。除了以上两种连接方式，还有 strings.Join()、buffer.WriteString()等。
+
+2. 参考答案及解析：编译通过，输出：0 2 zz zz 5。知识点：iota 的使用。给大家贴篇文章，讲的很详细
+icongolang 使用 iota - 迪克猪 - 博客园
+
+3. 参考答案及解析：BD。知识点：nil 值。nil 只能赋值给指针、chan、func、interface、map 或 slice 类型的变量。强调下 D 选项的 error 类型，它是一种内置接口类型，看下方贴出的源码就知道，所以 D 是对的。
+```
+type error interface {
+	Error() string
+}
+```
