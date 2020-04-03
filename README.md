@@ -1,4 +1,4 @@
-# go-question-bank
+# studygolang-interview
 go question bank
 
 ## day1
