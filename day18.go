@@ -22,14 +22,3 @@ func f3() (r int) {
 	}(r)
 	return 1
 }
-
-func increaseB() (r int) {
-	// 1.赋值
-	r = 0
-	// 2.闭包引用，r++
-	defer func() {
-		r++
-	}()
-	// 3.空 return
-	return
-}
