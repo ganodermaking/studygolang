@@ -613,3 +613,9 @@ a =  [1 12 13 4 5]
 1. 参考答案及解析：ABD。参考文章《函数》
 2. 参考答案及解析：BCD。参考文章《非懂不可的Slice（一）》
 3. 参考答案及解析：select 会随机选择一个可用通道做收发操作，所以可能触发异常，也可能不会。具体详看《Go 并发 -- Select》
+
+### day37
+
+1. 参考答案及解析：ABCD。
+2. 参考答案及解析：编译报错cannot take the address of i。知识点：常量。常量不同于变量的在运行期分配内存，常量通常会被编译器在预处理阶段直接展开，作为指令数据使用，所以常量无法寻址。
+3. 参考答案及解析：不能通过编译。知识点：函数返回值类型。nil 可以用作 interface、function、pointer、map、slice 和 channel 的“空值”。但是如果不特别指定的话，Go 语言不能识别类型，所以会报错:cannot use nil as type string in return argument.
