@@ -616,6 +616,12 @@ a =  [1 12 13 4 5]
 
 ### day37
 
-1. 参考答案及解析：ABCD。
-2. 参考答案及解析：编译报错cannot take the address of i。知识点：常量。常量不同于变量的在运行期分配内存，常量通常会被编译器在预处理阶段直接展开，作为指令数据使用，所以常量无法寻址。
-3. 参考答案及解析：不能通过编译。知识点：函数返回值类型。nil 可以用作 interface、function、pointer、map、slice 和 channel 的“空值”。但是如果不特别指定的话，Go 语言不能识别类型，所以会报错:cannot use nil as type string in return argument.
+* 参考答案及解析：ABCD。
+* 参考答案及解析：编译报错cannot take the address of i。知识点：常量。常量不同于变量的在运行期分配内存，常量通常会被编译器在预处理阶段直接展开，作为指令数据使用，所以常量无法寻址。
+* 参考答案及解析：不能通过编译。知识点：函数返回值类型。nil 可以用作 interface、function、pointer、map、slice 和 channel 的“空值”。但是如果不特别指定的话，Go 语言不能识别类型，所以会报错:cannot use nil as type string in return argument。
+
+### day38
+
+* 参考答案及解析：ABCD。
+* 参考答案及解析：012/abc
+* 参考答案及解析：能，输出m1 m2，第2行代码基于类型User创建了新类型 User1，第3行代码是创建了User的类型别名User2，注意使用=定义类型别名。因为User2是别名，完全等价于 User，所以 User2具有User所有的方法。但是i1.m1()是不能执行的，因为User1没有定义该方法。
