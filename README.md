@@ -631,3 +631,24 @@ a =  [1 12 13 4 5]
 * 参考答案及解析：D。参考文章《Go 并发 -- 信道》
 * 参考答案及解析：non-empty interface 考点：interface 的内部结构，我们知道接口除了有静态类型，还有动态类型和动态值，当且仅当动态值和动态类型都为 nil 时，接口类型值才为 nil。这里的 x 的动态类型是 *int，所以 x 不为 nil。
 * 参考答案及解析：程序抛异常。先定义下，第一个协程为 A 协程，第二个协程为 B 协程；当 A 协程还没起时，主协程已经将 channel 关闭了，当 A 协程往关闭的 channel 发送数据时会 panic，panic: send on closed channel。
+
+### day40
+
+* 参考答案及解析：ABC。参考文章《Go 并发 -- Select》​
+* 参考答案及解析：有方向的 channel 不可以被关闭。​
+* 存在两个问题：1.map需要初始化才能使用；2.指针不支持索引。
+
+修复如下：
+
+```go
+func main() {
+    s := new(Show)
+
+    p := make(Param)
+    p["day"] = 2
+    s.Param = &p
+
+    tmp := *s.Param
+    fmt.Println(tmp["day"])
+}
+```
