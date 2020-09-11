@@ -2,7 +2,7 @@
 
 ## 下面两段代码输出什么
 
-```go
+```golang
 func main() {
     s := make([]int, 5)
     s = append(s, 1, 2, 3)

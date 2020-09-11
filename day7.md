@@ -11,7 +11,7 @@ D fmt.Sprintf("abc%d", 123)
 
 ## 下面这段代码是否编译通过？如果可以，输出什么
 
-```go
+```golang
 const (
     x = iota
     _

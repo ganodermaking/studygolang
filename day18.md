@@ -2,7 +2,7 @@
 
 ## f1()、f2()、f3() 函数分别返回什么
 
-```go
+```golang
 func f1() (r int) {
     defer func() {
         r++

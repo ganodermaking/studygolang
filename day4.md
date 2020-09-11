@@ -2,7 +2,7 @@
 
 ## 下面这段代码是否通过编译，不能的话原因是什么，如果能，输出什么
 
-```go
+```golang
 func main() {
     list := new([]int)
     list = append(list, 1)
@@ -12,7 +12,7 @@ func main() {
 
 ## 下面这段代码是否通过编译，如果可以，输出什么
 
-```go
+```golang
 func main() {
     s1 := []int{1, 2, 3}
     s2 := []int{4, 5}
@@ -28,7 +28,7 @@ var (
 
 ## 下面这段代码是否通过编译，如果可以，输出什么呢
 
-```go
+```golang
 func main() {
     fmt.Println(size, max_size)
 }

@@ -9,7 +9,7 @@ B. a := []int{}
 
 ## A、B、C、D 哪些选项有语法错误
 
-```go
+```golang
 type S struct {
 }
 
@@ -31,7 +31,7 @@ func main() {
 
 ## 下面 A、B 两处应该填入什么代码，才能确保顺利打印出结果
 
-```go
+```golang
 type S struct {
     m string
 }

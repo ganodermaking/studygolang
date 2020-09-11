@@ -2,7 +2,7 @@
 
 ## 下面这段代码输出什么
 
-```go
+```golang
 func main() {
     m := map[int]string{0: "zero", 1: "one"}
     for k, v := range m {
@@ -13,7 +13,7 @@ func main() {
 
 ## 下面这段代码输出什么呢
 
-```go
+```golang
 func main() {
     a := 1
     b := 2

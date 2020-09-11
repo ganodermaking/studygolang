@@ -17,7 +17,7 @@ B.1
 C.Compilation error
 ```
 
-```go
+```golang
 type person struct {
     name string
 }
@@ -37,7 +37,7 @@ B.5
 C.Compilation error
 ```
 
-```go
+```golang
 func hello(num ...int) {
     num[0] = 18
 }

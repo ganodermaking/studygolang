@@ -17,7 +17,7 @@ B. not nil
 C. compilation error
 ```
 
-```go
+```golang
 func hello() []string {
  return nil
 }
@@ -34,7 +34,7 @@ func main() {
 
 ## 下面这段代码能否编译通过？如果可以，输出什么
 
-```go
+```golang
 func GetValue() int {
     return 1
 }

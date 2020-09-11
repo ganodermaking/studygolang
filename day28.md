@@ -2,7 +2,7 @@
 
 ## 下面的代码有什么问题
 
-```go
+```golang
 func main() {
     fmt.Println([...]int{1} == [2]int{1})
     fmt.Println([]int{1} == []int{1})
@@ -16,7 +16,7 @@ A. 5 5
 B. runtime error
 ```
 
-```go
+```golang
 var p *int
 
 func foo() (*int, error) {

@@ -7,7 +7,7 @@ A. 1
 B. compilation error
 ```
 
-```go
+```golang
 func (i int) PrintInt() {
  fmt.Println(i)
 }
@@ -25,7 +25,7 @@ A. speak
 B. compilation error
 ```
 
-```go
+```golang
 type People interface {
     Speak(string) string
 }

@@ -2,7 +2,7 @@
 
 ## 下面这段代码输出什么
 
-```go
+```golang
 const (
     a = iota
     b = iota
@@ -23,7 +23,7 @@ func main() {
 
 ## 2.下面这段代码输出什么呢？为什么
 
-```go
+```golang
 type People interface {
     Show()
 }

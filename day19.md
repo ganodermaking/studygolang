@@ -2,7 +2,7 @@
 
 ## 下面代码段输出什么
 
-```go
+```golang
 type Person struct {
  age int
 }

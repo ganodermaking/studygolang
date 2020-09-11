@@ -2,7 +2,7 @@
 
 ## 下面这段代码输出什么
 
-```go
+```golang
 func f(n int) (r int) {
     defer func() {
     r += n
@@ -24,7 +24,7 @@ func main() {
 
 ## 下面这段代码输出什么呢
 
-```go
+```golang
 func main() {
     var a = [5]int{1, 2, 3, 4, 5}
     var r [5]int

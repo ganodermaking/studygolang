@@ -18,7 +18,7 @@ C. 1 0
 D. 0 0
 ```
 
-```go
+```golang
 func increaseA() int {
     var i int
     defer func() {
@@ -47,7 +47,7 @@ A. 13 23
 B. compilation error
 ```
 
-```go
+```golang
 type A interface {
     ShowA() int
 }

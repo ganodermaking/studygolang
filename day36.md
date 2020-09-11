@@ -20,7 +20,7 @@ D. s := []int{1, 2, 3, 4, 5}
 
 ## 下面代码会触发异常吗？请说明
 
-```go
+```golang
 func main() {
     runtime.GOMAXPROCS(1)
     int_chan := make(chan int, 1)

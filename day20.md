@@ -8,7 +8,7 @@ B. D F M
 C. F D M
 ```
 
-```go
+```golang
 func f() {
  defer fmt.Println("D")
  fmt.Println("F")
@@ -22,7 +22,7 @@ func main() {
 
 ## 下面代码输出什么
 
-```go
+```golang
 type Person struct {
     age int
 }

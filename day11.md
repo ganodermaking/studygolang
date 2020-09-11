@@ -17,7 +17,7 @@ B. not nil
 C. compilation error
 ```
 
-```go
+```golang
 func main() {
     var i interface{}
     if i == nil {
@@ -36,7 +36,7 @@ B. 0
 C. compilation error
 ```
 
-```go
+```golang
 func main() {
     s := make(map[string]int)
     delete(s, "h")

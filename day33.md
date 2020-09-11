@@ -25,7 +25,7 @@ A. s: [Z,B,C]
 B. s: [A,Z,C]
 ```
 
-```go
+```golang
 func main() {
     i := 1
     s := []string{"A", "B", "C"}

@@ -8,7 +8,7 @@ B. xello
 C. compilation error
 ```
 
-```go
+```golang
 func main() {
     str := "hello"
     str[0] = 'x'
@@ -46,7 +46,7 @@ C. add([]int{1, 2})
 D. add([]int{1, 3, 7}…)
 ```
 
-```go
+```golang
 func add(args ...int) int {
     sum := 0
     for _, arg := range args {

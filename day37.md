@@ -11,7 +11,7 @@ D. 从一个已经关闭的 channel 接收数据，如果缓冲区中为空，�
 
 ## 下面代码有什么问题
 
-```go
+```golang
 const i = 100
 var j = 123
 
@@ -23,7 +23,7 @@ func main() {
 
 ## 下面代码能否编译通过？如果通过，输出什么
 
-```go
+```golang
 func GetValue(m map[int]string, id int) (string, bool) {
      if _, exist := m[id]; exist {
          return "exist", true

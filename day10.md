@@ -8,7 +8,7 @@ B.13
 C.compilation error
 ```
 
-```go
+```golang
 func main() {
     a := 5
     b := 8.1
@@ -24,7 +24,7 @@ B.4
 C.compilation error
 ```
 
-```go
+```golang
 func main() {
     a := [5]int{1, 2, 3, 4, 5}
     t := a[3:4:4]
@@ -40,7 +40,7 @@ B. equal
 C. not equal
 ```
 
-```go
+```golang
 func main() {
     a := [2]int{5, 6}
     b := [3]int{5, 6}

@@ -11,7 +11,7 @@ D. 调用panic函数；
 
 ## 下面代码输出什么
 
-```go
+```golang
 func main() {
      x := []string{"a", "b", "c"}
      for v := range x {
@@ -29,7 +29,7 @@ func main() {
 
 ## 下面这段代码能否编译通过？如果通过，输出什么
 
-```go
+```golang
 type User struct{}
 type User1 User
 type User2 = User

@@ -11,7 +11,7 @@ D. var str = ""
 
 ## 下面这段代码输出什么
 
-```go
+```golang
 func hello(i int) {
     fmt.Println(i)
 }
@@ -25,7 +25,7 @@ func main() {
 
 ## 下面这段代码输出什么呢
 
-```go
+```golang
 type People struct{}
 
 func (p *People) ShowA() {

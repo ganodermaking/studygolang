@@ -2,7 +2,7 @@
 
 ## 下面这段代码输出什么
 
-```go
+```golang
 func main() {
     defer func() {
         fmt.Println("打印前")

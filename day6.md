@@ -11,7 +11,7 @@ D p->name
 
 ## 下面这段代码是否能通过编译？如果通过，输出什么
 
-```go
+```golang
 type MyInt1 int
 type MyInt2 = int
 

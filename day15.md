@@ -8,7 +8,7 @@ B. s2
 C. s1、s2 都可以
 ```
 
-```go
+```golang
 func main() {
     var s1 []int
     var s2 = []int{}
@@ -28,7 +28,7 @@ B. 65
 C. compilation error
 ```
 
-```go
+```golang
 func main() {
     i := 65
     fmt.Println(string(i))
@@ -37,7 +37,7 @@ func main() {
 
 ## 下面这段代码输出什么呢
 
-```go
+```golang
 type A interface {
     ShowA() int
 }

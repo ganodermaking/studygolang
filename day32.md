@@ -8,7 +8,7 @@
 &{A} &{B} &{C}
 ```
 
-```go
+```golang
 type Foo struct {
     bar string
 }
@@ -32,7 +32,7 @@ B. 3
 C. 2 或 3
 ```
 
-```go
+```golang
 func main() {
     var m = map[string]int{
         "A": 21,

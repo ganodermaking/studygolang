@@ -2,7 +2,7 @@
 
 ## 下面这段代码输出什么
 
-```go
+```golang
 type Direction int
 
 const (
@@ -28,7 +28,7 @@ A. 4
 B. compilation error
 ```
 
-```go
+```golang
 type Math struct {
     x, y int
 }

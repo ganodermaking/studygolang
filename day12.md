@@ -17,7 +17,7 @@ B. +5 +5
 C.  0  0
 ```
 
-```go
+```golang
 func main() {
     i := -5
     j := +5
@@ -27,7 +27,7 @@ func main() {
 
 ## 下面这段代码输出什么呢
 
-```go
+```golang
 type People struct{}
 
 func (p *People) ShowA() {

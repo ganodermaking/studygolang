@@ -2,7 +2,7 @@
 
 ## 下面这段代码输出什么
 
-```go
+```golang
 func change(s ...int) {
     s = append(s, 3)
 }
@@ -22,7 +22,7 @@ func main() {
 
 ## 下面这段代码输出什么呢
 
-```go
+```golang
 func main() {
     var a = []int{1, 2, 3, 4, 5}
     var r [5]int

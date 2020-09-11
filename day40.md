@@ -9,7 +9,7 @@ D. select关键字的用法与switch语句非常类似，后面要带判断条�
 
 ## 下面的代码有什么问题？​
 
-```go
+```golang
 func Stop(stop <-chan bool) {
     close(stop)
 }
@@ -17,7 +17,7 @@ func Stop(stop <-chan bool) {
 
 ## 下面这段代码存在什么问题？​
 
-```go
+```golang
 type Param map[string]interface{}
 
 type Show struct {

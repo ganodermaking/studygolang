@@ -2,7 +2,7 @@
 
 ## 下面的代码有几处语法问题，各是什么
 
-```go
+```golang
 func main() {
     var x string = nil
     if x == nil {
@@ -16,7 +16,7 @@ var a bool = true
 
 ## return 之后的 defer 语句会执行吗，下面这段代码输出什么
 
-```go
+```golang
 func main() {
     defer func() {
         fmt.Println("1")

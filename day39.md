@@ -11,7 +11,7 @@ D. 无缓冲的channel是同步的，而有缓冲的channel是非同步的；
 
 ## 下面代码是否能编译通过？如果通过，输出什么
 
-```go
+```golang
 func Foo(x interface{}) {
     if x == nil {
         fmt.Println("empty interface")
@@ -29,7 +29,7 @@ func main() {
 
 ## 下面代码输出什么
 
-```go
+```golang
 func main() {
     ch := make(chan int, 100)
 

@@ -2,7 +2,7 @@
 
 ## 切片 a、b、c 的长度和容量分别是多少
 
-```go
+```golang
 func main() {
     s := [3]int{1, 2, 3}
     a := s[:0]
@@ -13,7 +13,7 @@ func main() {
 
 ## 下面代码中 A B 两处应该怎么修改才能顺利编译
 
-```go
+```golang
 func main() {
     var m map[string]int //A
     m["a"] = 1
@@ -30,7 +30,7 @@ A. 23 13
 B. compilation error
 ```
 
-```go
+```golang
 type A interface {
     ShowA() int
 }

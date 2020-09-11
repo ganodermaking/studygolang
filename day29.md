@@ -2,7 +2,7 @@
 
 ## 下面这段代码能否正常结束
 
-```go
+```golang
 func main() {
     v := []int{1, 2, 3}
     for i := range v {
@@ -13,7 +13,7 @@ func main() {
 
 ## 下面这段代码输出什么？为什么
 
-```go
+```golang
 func main() {
     var m = [...]int{1, 2, 3}
 
